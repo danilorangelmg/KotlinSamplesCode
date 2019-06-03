@@ -25,3 +25,19 @@ data class WebServiceObj(val orderId: Long, val productName: String, val value: 
  * Example 1 end
  * ======================================================================================
  */
+
+/***
+ * Example 2
+ */
+fun withExample2() {
+    val stringValue = with(StringBuilder()) {
+        append("the value is\n")
+        append(10.0)
+    }.toString()
+
+    println(stringValue)
+}
+/***
+ * Example 2 end
+ * ======================================================================================
+ */
